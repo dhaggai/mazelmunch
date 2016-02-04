@@ -1,0 +1,46 @@
+$navbar-default-bg: white;
+
+@import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+} 
+
+
+.jumbotron {
+	position: relative;
+	padding:200px;
+	background: url(/assets/spices.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+	opacity:0.7;
+}
+
+
+.jumbotron h1 {
+	color: white;
+	opacity: 1.5;
+
+}
+
+.jumbotron p {
+	color: white;
+}
+
+.thumbnail{
+    width: 350px;
+    height: 350px;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-bottom-color: #909090;
+}
+
+#recipes{
+	color:#878787;
+}
+
+#featured-headline {
+	color:#878787;
+	
+}
